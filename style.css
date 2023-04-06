@@ -35,6 +35,7 @@ body {
     color: #352016;
     padding: 20px;
     font-size: 800;
+    text-align: center;
 }
 
 .title2 {
@@ -108,7 +109,7 @@ body {
 }
 
 .book-names {
-    color: white;
+    color: #f6ddd1;
     background-color: transparent;
     text-decoration: underline;
     font-family: 'Courier New', Courier, monospace;
@@ -149,8 +150,6 @@ body {
   
   .book-reviews {
     padding: 20px;
-    margin: 10px;
-    background-color: rgba(246, 221, 209, 0.5);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 8px;
   }
@@ -201,7 +200,7 @@ body {
   .audio-title {
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: #f6ddd1;
     margin-bottom: 10px;
     font-family: 'Courier New', Courier, monospace;
   }
@@ -310,7 +309,7 @@ body {
   }
   
   .overlay-text {
-    color: #fff;
+    color: #f6ddd1;
     font-size: 24px;
     font-weight: bold;
     text-align: center;
@@ -330,6 +329,7 @@ body {
     letter-spacing: 0.15em; /* Adds spacing between letters */
     animation: typing 6s steps(40, end); /* Animates the typing effect */
     animation-fill-mode: forwards;
+    color: #f6ddd1;
   }
   
   @keyframes typing {
@@ -342,3 +342,6 @@ body {
     }
   }
   
+.invert{
+    filter: invert(100%);
+}
